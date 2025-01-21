@@ -1,0 +1,15 @@
+<h1>@ViewBag.PageTitle</h1>
+<h2>Universe: @ViewBag.Universe1</h2>
+<p>.....</p>
+<ul>
+    @foreach (string hero in ViewBag.DC)
+    {
+        <li>@hero</li>
+    }
+   
+</ul>
+<h2>Universe: @ViewBag.Universe2</h2>
+<ul>
+    <li>@ViewBag.MV1</li>
+    <li>@ViewBag.MV2</li>
+</ul>
